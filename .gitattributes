@@ -1,0 +1,12 @@
+regression_test_prediction.csv filter=lfs diff=lfs merge=lfs -text
+classification_test_prediction.csv filter=lfs diff=lfs merge=lfs -text
+artifacts/regression_test_prediction.csv filter=lfs diff=lfs merge=lfs -text
+artifacts/classification_test_prediction.csv filter=lfs diff=lfs merge=lfs -text
+artifacts/regression_test_predictions filter=lfs diff=lfs merge=lfs -text
+artifacts/classification_test_predictions filter=lfs diff=lfs merge=lfs -text
+artifacts/classification_test_predictions.csv filter=lfs diff=lfs merge=lfs -text
+artifacts/regression_test_predictions.csv filter=lfs diff=lfs merge=lfs -text
+artifacts/classifier_package.pkl filter=lfs diff=lfs merge=lfs -text
+artifacts/regressor_package.pkl filter=lfs diff=lfs merge=lfs -text
+artifacts/*.csv filter=lfs diff=lfs merge=lfs -text
+artifacts/*.pkl filter=lfs diff=lfs merge=lfs -text
